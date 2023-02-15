@@ -222,3 +222,114 @@
   </div>
 </body>
 </html>
+
+
+<section class="places section_margins_bottom">
+  <div class="place">
+    <h2 class="place__title">Куршская коса</h2>
+    <div class="website">
+      <p class="website__url-header">URL</p>
+      <a href="http://park-kosa.ru" class="website__link">park-kosa.ru</a>
+    </div>
+    <img src="./images/place-kosa.jpg" alt="#" class="place__image">
+    <div class="plase-info">
+    <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
+      спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
+      Уникальная природная зона на краю российского анклава.</p>
+      <p class="place__paragraph">На этом Калининградская область не заканчивается.
+        Для путешественника и исследователя там же по соседству — самая западная точка России,
+        Балтийская коса, — и немецкое наследие россыпи небольших приморских городов.
+        Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
+      </div>
+      </div>
+
+
+
+      <div class='page__container'>
+        <a class="card" href="#">
+          <div class="card__img"></div>
+          <h1 class="card__title">Lorem ipsum</h1>
+          <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde vel veniam doloremque.</p>
+           <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde vel veniam doloremque.</p>
+           <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde vel veniam doloremque.</p>
+        </a>
+      </div>
+  </div>
+
+
+
+  .page__container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+
+  .card {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    max-width: 100%;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    background-image: url('https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  @media (max-width: 640px) {
+    .card {
+      padding: 40px 20px;
+    }
+  }
+
+  .card:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+  }
+
+  .card__title {
+    font-size: 32px;
+  }
+
+  .card__title {
+    font-size: 48px;
+    margin: 0 0 48px;
+  }
+
+  @media (max-width: 640px) {
+    .card__title {
+      font-size: 36px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .card__description {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  @media (max-width: 640px) {
+    .card__description {
+      font-size: 24px;
+    }
+  }
+
+
