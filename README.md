@@ -16,5 +16,6 @@
 + Для адаптации использованна функция calc.
 
 ## Ссылка на GitHub Pages.
+ https://olgapro21.github.io/russian-travel/index.html
 
 
