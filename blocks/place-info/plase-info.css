@@ -21,7 +21,7 @@
 
   @media screen and (max-width: 767px) {
     .plase-info {
-      max--dth: 601px;
+      max-width: 601px;
       gap: 25px;
     }
   }
