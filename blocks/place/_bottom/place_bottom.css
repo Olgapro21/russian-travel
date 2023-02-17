@@ -1,0 +1,10 @@
+.place_bottom {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .place_bottom {
+    margin-bottom: 50px;
+  }
+}
+
