@@ -1,0 +1,26 @@
+.lead__image {
+  margin: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+/*от 0 до 768*/
+/*@media screen and (max-width: 767px) {
+  .lead__image {
+    max-width: 320px;
+  }
+}*/
+
+/*от 768 до 1024*/
+/*@media screen and (max-width: 1023px) {
+  .lead__image {
+   max-width: 768px;
+  }
+}*/
+
+/*от 1024 до 1280*/
+/*@media screen and (max-width: 1279px) {
+   .lead__image {
+     max-width: 928px;
+   }
+}*/

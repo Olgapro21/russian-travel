@@ -1,0 +1,27 @@
+.plase__info {
+  max-width: 968px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  /*grid-area: info;*/
+  }
+
+  @media screen and (max-width: 1279px) {
+    .plase__info {
+      max-width: 938px;
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .plase__info {
+      max-width:729px;
+      gap: 25px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .plase__info {
+      max-width: 601px;
+      gap: 25px;
+    }
+  }
