@@ -38,7 +38,7 @@
   bottom: 0;
   width: 100%;
   min-height: 740px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: #2A2C2F;
   overflow: hidden;
   z-index: -1;
   opacity: .3;
