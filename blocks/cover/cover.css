@@ -1,7 +1,6 @@
 .cover {
   width: calc(100% - 48px*2);
   max-width: 1280px;
-  min-height: 740px;
   box-sizing: border-box;
   position: relative;
   z-index: 0;
