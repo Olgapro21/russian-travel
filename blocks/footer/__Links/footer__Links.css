@@ -1,11 +1,15 @@
+.footer__Links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-direction:row;
+}
+
 @media screen and (max-width: 767px) {
   .footer__Links {
-    width: calc(100% - 16px);
-    /*width: 100%;*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    margin-right: 0;
   }
 }
