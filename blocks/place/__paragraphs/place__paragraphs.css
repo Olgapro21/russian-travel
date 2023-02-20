@@ -22,5 +22,6 @@
     .place__paragraphs {
       max-width: 601px;
       gap: 25px;
+      margin: 0 16px 0 16px;
     }
   }
