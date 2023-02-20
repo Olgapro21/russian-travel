@@ -43,6 +43,6 @@
 @import url(../blocks/page/__footer/page__footer.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__Link/footer__Link.css);
+@import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyrigth/footer__copyrigth.css);
-@import url(../blocks/footer/__Links/footer__Links.css);
+@import url(../blocks/footer/__links/footer__links.css);
