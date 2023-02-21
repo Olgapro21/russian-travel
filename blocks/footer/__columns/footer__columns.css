@@ -1,10 +1,10 @@
 .footer__columns {
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 18px;
   margin: 0;
-  flex-direction:row;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 767px) {
