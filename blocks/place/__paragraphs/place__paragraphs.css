@@ -1,20 +1,27 @@
 .place__paragraphs {
   padding: 0;
-  max-width: 968px;
+  /*max-width: 994px;*/
   display: flex;
   flex-direction: column;
   gap: 26px;
   }
 
-  @media screen and (max-width: 1279px) {
+  /*@media screen and (max-width: 1279px) {
     .place__paragraphs {
-      max-width: 938px;
+      max-width: 994px;
+    }
+  }*/
+
+  @media screen and (max-width: 1023px) {
+    .place__paragraphs {
+      max-width: 729px;
+      gap: 25px;
     }
   }
 
   @media screen and (max-width: 1023px) {
     .place__paragraphs {
-      max-width:729px;
+      /*max-width: 938px;*/
       gap: 25px;
     }
   }

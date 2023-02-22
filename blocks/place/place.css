@@ -18,11 +18,15 @@
     .place {
       max-width: 100%;
       gap: 48px 28px;
-      margin-bottom: 73px;
+      margin-bottom: 72px;
     }
-    /*.place:nth-last-child(2) {
-      margin-bottom: 75px;*/
-  }
+    .place:last-child {
+      margin-bottom: 0;
+    }
+    .place:nth-last-child(2) {
+      margin-bottom: 70px;
+    }
+}
 
   @media screen and (max-width: 767px) {
     .place {
@@ -31,8 +35,5 @@
       gap: 32px;
       margin-bottom: 50px;
     }
-    .place:last-child {
-      margin-bottom: 0;
-      padding-top: 10px;
   }
-}
+

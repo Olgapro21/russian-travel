@@ -7,9 +7,18 @@
   font-style: normal;
 }
 
-  @media screen and (max-width: 1023px) {
-    .place__paragraph {
-      font-size: 16px;
-      line-height: 26.08px;
-    }
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    min-width: 352px;
+    font-size: 16px;
+    line-height: 26.08px;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    min-width: 288px;
+  }
+}
+
+
