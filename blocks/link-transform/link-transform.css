@@ -1,8 +1,0 @@
-.link-transform {
-  transition: opacity .7s linear;
-  cursor: pointer;
-}
-
-.link-transform:hover {
-  opacity: .8;
-}
