@@ -17,6 +17,5 @@
     max-width: 320px;
     width: calc(100% - 16px*2);
     margin: 0 auto;
-    gap: 25px;
   }
 }
